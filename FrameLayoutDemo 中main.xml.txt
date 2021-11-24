@@ -1,0 +1,37 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+   
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff00"
+        android:textsize="1OOdip"
+        android:text="@string/first"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ffff"
+        android:textsize="70dip"
+        android:text="@string/second"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffOOOO"
+        android:textsize="40dip"
+        android:text="@string/third"/>
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fffffOO"
+        android:textSize="40dip"
+        android:layout_gravity="bottom"
+        android:text="@string/forth"/>
+   
+</FrameLayout>
